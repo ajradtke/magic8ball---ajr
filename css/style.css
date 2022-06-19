@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.headertext {
+    padding: 15px;
+    width: 100%;
+}
+.application, .textButton {
+    background-color: white;
+    width: 50%; 
+}
+#answers {
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url('../img/magic/magic8ball_start.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: dashed;
+}
