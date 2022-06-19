@@ -1,21 +1,61 @@
-body{
-    background-color: black;
+* {
+    font-family: 'Righteous', cursive;
 }
+body{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/pagebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
 .headertext {
-    padding: 15px;
+    margin: 15px;
     width: 100%;
 }
-.application, .textButton {
-    background-color: white;
-    width: 50%; 
+
+h1, h2 {
+    color: white;
 }
+
+.textButton {
+   margin: 15px;
+}
+
+.askButton {
+    height: 20px;
+    width: 100px;
+}
+
+#magicText {
+    margin: 15px;
+}
+
+.container {
+    width: 100%;
+    /* border-style: dashed; */
+    text-align: center;
+}
+
+.application {
+    height: 800px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+}
+
 #answers {
-    width: 50%;
+    width: 100%;
     height: 500px;
-    border-radius: 10px;
     background-image: url('../img/magic/magic8ball_start.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    border-style: dashed;
+    /* border-style: dashed; */
 }

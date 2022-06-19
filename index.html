@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic 8 Ball - AJR</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="application">
@@ -16,8 +19,8 @@
             </div>
         
             <div class="textButton">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button onclick="ask()">ASK</button>
+                <textarea name="question" id="magicText" cols="50" rows="5" placeholder="Ask me anything!"></textarea><br>
+                <button class="askButton" onclick="ask()">Ask!</button>
             </div>
         </div>
         <div id="answers"></div>
